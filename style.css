@@ -1,0 +1,182 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0px;
+}
+h1 h2 h3 h4 p ul li {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    z-index: 10;
+    background-color: black;
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid seashell;
+}
+header #hdr {
+    display: flex;
+    padding: 0px 10px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    max-height: 50px;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+header nav {
+    display: flex;
+    
+}
+header li {
+    display: inline-flex;
+    padding: 0px 5px;
+    font-size: 0.8rem; 
+}
+
+header a {
+    color: seashell;
+}
+main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+    top: 69px;
+    width: 100%;
+    background-color: black;
+}
+
+#mission {
+    background-image: url(./img-mission-background.jpg);
+    overflow: hidden;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#mission h2 {
+    display: block;
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: black;
+}
+
+#mission h4{
+    display: block;
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    margin: 0em;
+    padding: 5px 0;
+}
+
+#feat {
+    
+    width: 1000px;
+    display: flex-column;    
+}
+
+#featured{
+    margin-top: 80px;
+}
+#feat img {
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+    padding: 15px;
+}
+
+#feat .teas{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.teas h4 {
+   margin: 0em;
+   padding-top: 10px;
+    padding-bottom: 25px;
+    margin: 0em;
+}
+
+#locations {
+   background-image:url(./img-locations-background.jpg) ;
+   width: 1200px;
+   height: 500px;
+   margin-top: 50px;
+   overflow: hidden;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+
+}
+   #locations h2{
+       padding: 15px;
+       margin: 0%;
+   }
+
+   #notes{
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       background-color:transparent;
+       
+   }
+
+   .note{
+       width:300px;
+       background-color: black;
+       padding: 10px;
+       margin: 0 20px;
+      
+   }
+
+   .note h4{
+       font-size: 0.7rem;
+       font-weight: 300;
+       line-height: 1.7rem;
+   }
+
+   #teacozy{
+       height: 200px;
+       background-color: black;
+   }
+
+   #teacozy h5{
+       line-height: 1.7rem;
+   }
+
+   #copyright{
+       position: relative;
+       display: flex;
+       width: 100%;
+       justify-content: flex-start;
+       margin-left: 20px;
+       text-align: left;
+   }
